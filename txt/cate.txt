@@ -1,0 +1,17 @@
+
+
+
+Barra de Categorias
+
+
+<div class="form-group">
+                    <label class="form-group">Categorias </label> 
+                    <select name="categorias"> <!-- Cate -->
+                    <option value="A">Accion </option>
+                    <option value="Av">Aventura </option>
+                    <option value="C">Casual </option>
+                    <option value="Ar">Arcade </option>
+                    <option value="T">Terror </option>
+                    <option value="RPG">RPG </option>
+                    <option value="FPS">FPS </option>
+                    </select>
