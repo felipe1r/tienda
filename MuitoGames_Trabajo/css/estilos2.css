@@ -22,8 +22,6 @@ body {
     align-items: center;
 }
 
-
-
 .barra::before {
     content: "";
     height: 2px;
