@@ -1,5 +1,5 @@
 :root {
-    --colorTextos: #49454567;
+    --colorTextos: #00000067;
 }
 
 
@@ -13,12 +13,9 @@
 
 body {
     font-family: 'Roboto';
-    background: #4568DC;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #7fb36a, #45dcb6);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #5daa8a, #45dc4d);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #77dc45;
+    background: -webkit-linear-gradient(to right, #4f7f78, #004346);
+    background: linear-gradient(to right, #4f7f78, #004346);
     height: 750px;
     display: flex;
     justify-content: center;
@@ -33,7 +30,7 @@ h1{
 form{
     background: #fff;
     padding: 40px 0;
-    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.8);
     border-radius: 10px;
 }
 
@@ -62,7 +59,7 @@ input{
 
 input:focus{ 
     outline: none;
-    color: #5e5d5d;
+    color: #0b0b0b;
 }
 
 label{
@@ -94,7 +91,7 @@ input:valid~label{
     width: 0%;
     bottom: 0;
     position: absolute;
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #4f7f78, #004346);
     transition: 0.3s ease width;
     left: 0;
 }
@@ -107,23 +104,20 @@ input:focus~.barra::before{
     width: 200px;
     text-align: center;
     margin: auto;
-    color: #B06AB3;
+    color: #000000;
     padding-top: 20px;
 }
 
 button{
     font-family: 'roboto';
-    background: #4568DC;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #B06AB3, #4568DC);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #4f7f78;
+    background: -webkit-linear-gradient(to right, #4f7f78, #004346);
+    background: linear-gradient(to right, #4f7f78, #004346);
     border: none;
     display: block;
     width: 80%;
     margin: 10px auto;
-    color: #fff;
+    color: #f6eeee;
     height: 40px;
     font-size: 16px;
     cursor: pointer;
