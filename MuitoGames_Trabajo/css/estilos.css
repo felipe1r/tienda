@@ -1,14 +1,18 @@
 body {
-    font-family: 'Arial, Helvetica, sans-serif;';
-    background: -webkit-linear-gradient(to right, #004346, #48bdac);
-    background: linear-gradient(to right, #004346, #48bdac);
     
+    font-family: 'Arial, Helvetica, sans-serif;';
+    background: -webkit-linear-gradient(to right, #004346,#48bdac);
+    background: linear-gradient(to right, #004346, #48bdac);
+    height: 100%;
+    background-size: cover !important;
+    background-repeat: no-repeat;
 }
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     transition-duration: 0.4s;
     cursor: pointer;
+    
 
 }
 
