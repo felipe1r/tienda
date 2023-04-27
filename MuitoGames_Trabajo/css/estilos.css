@@ -17,3 +17,6 @@ h4{
     color: #eaeeea;
 }
 
+.c:hover{
+    color: white !important;
+}
