@@ -99,6 +99,36 @@ button {
     cursor: pointer;
 }
 
+a {
+    font-family: 'Arial, Helvetica, sans-serif;';
+    background: #4f7f78;
+    background: -webkit-linear-gradient(to right, #004346, #48bdac);
+    background: linear-gradient(to right, #004346, #48bdac);
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: #f6eeee;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+b {
+    font-family: 'Arial, Helvetica, sans-serif;';
+
+   
+    display: block;
+    width: 43%;
+    margin: 10px auto;
+    color: #000000;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 
 .barra {
     position: relative;
