@@ -1,0 +1,8 @@
+body {
+    font-family: 'Arial, Helvetica, sans-serif;';
+    background: #48bdac;
+    background: -webkit-linear-gradient(to right, #004346, #48bdac);
+    background: linear-gradient(to right, #004346, #48bdac );
+    height: 750px;
+    
+}
